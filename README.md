@@ -1,10 +1,10 @@
 Slides:
 https://docs.google.com/presentation/d/1UeYZqo5WlBMz8iZciNB7mPKR121ohZDv2v-2zKui_kg/edit?usp=sharing
 
-Marks distribution: 
-    Project: 30%
-    Quiz/Mid-exam: 30% on 8th
-    Final: 40% - MCQ on 15th
+Marks distribution: <br>
+    Project: 30%  <br>
+    Quiz/Mid-exam: 30% on 8th <br>
+    Final: 40% - MCQ on 15th </br>
 
 
 ![alt text](https://javabydeveloper.com/wp-content/uploads/2016/02/entity-lifecycle2.png)
