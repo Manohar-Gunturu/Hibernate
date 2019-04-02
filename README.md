@@ -7,8 +7,6 @@ Marks distribution: <br>
     Final: 40% - MCQ on 15th </br>
 
 
-![alt text](https://javabydeveloper.com/wp-content/uploads/2016/02/entity-lifecycle2.png)
-
 After .detach changes are not going to be tracked until we reattach using merge or saveorupdate.
 
 Installation demo:
