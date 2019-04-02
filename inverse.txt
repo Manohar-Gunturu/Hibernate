@@ -1,0 +1,20 @@
+inverse="true"
+Hibernate: insert into USERMN.CUSTOMER (NAME1, EMAIL, CUSTOMER_ID) values (?, ?, ?)
+Hibernate: insert into USERMN.ORDERS (ITEM_NAME, PRICE, ORDER_ID) values (?, ?, ?)
+Hibernate: insert into USERMN.ORDERS (ITEM_NAME, PRICE, ORDER_ID) values (?, ?, ?)
+
+
+inverse="false"
+Hibernate: insert into USERMN.CUSTOMER (NAME1, EMAIL, CUSTOMER_ID) values (?, ?, ?)
+Hibernate: insert into USERMN.ORDERS (ITEM_NAME, PRICE, ORDER_ID) values (?, ?, ?)
+Hibernate: insert into USERMN.ORDERS (ITEM_NAME, PRICE, ORDER_ID) values (?, ?, ?)
+Hibernate: update USERMN.ORDERS set CUSTOMER_ID=? where ORDER_ID=?
+Hibernate: update USERMN.ORDERS set CUSTOMER_ID=? where ORDER_ID=?
+
+
+inverse="true" with adding  
+customerID property and column in mapping and pojo classes of Orders
+
+Hibernate: insert into USERMN.CUSTOMER (NAME1, EMAIL, CUSTOMER_ID) values (?, ?, ?)
+Hibernate: insert into USERMN.ORDERS (CUSTOMER_ID, ITEM_NAME, PRICE, ORDER_ID) values (?, ?, ?, ?)
+Hibernate: insert into USERMN.ORDERS (CUSTOMER_ID, ITEM_NAME, PRICE, ORDER_ID) values (?, ?, ?, ?)
