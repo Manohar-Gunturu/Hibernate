@@ -8,8 +8,7 @@ inverse="false"
 Hibernate: insert into USERMN.CUSTOMER (NAME1, EMAIL, CUSTOMER_ID) values (?, ?, ?)
 Hibernate: insert into USERMN.ORDERS (ITEM_NAME, PRICE, ORDER_ID) values (?, ?, ?)
 Hibernate: insert into USERMN.ORDERS (ITEM_NAME, PRICE, ORDER_ID) values (?, ?, ?)
-Hibernate: update USERMN.ORDERS set CUSTOMER_ID=? where ORDER_ID=?
-Hibernate: update USERMN.ORDERS set CUSTOMER_ID=? where ORDER_ID=?
+few more quries to 
 
 
 inverse="true" with adding  
